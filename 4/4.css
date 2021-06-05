@@ -1,0 +1,71 @@
+.innerlp {
+  width: 304px;
+  height: 304px;
+  border: 2px solid black;
+  border-radius: 50%;
+  /* margin-top: 12%; */
+  /* margin-left: 12%; */
+
+  left: 184px;
+  top: 134px;
+  position: absolute;
+  background-image: url(clock2.png) ;
+  background-size: 304px;
+  
+}
+.outerlp {
+  width: 410px;
+  height: 410px;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: relative;
+  left: 123px;
+  top: 77px;
+  background: #cd2020;
+}
+ .hrs {
+  width: 152px;
+  border: 1px solid #000000;
+  position: absolute;
+  left: 337px;
+  top: 197px;
+  margin: 87px 0px 0px 0px;
+  transform-origin: left;
+
+  animation: clock_anim 21600s infinite linear;
+  
+
+
+
+
+} 
+.mins {
+  width: 152px;
+  border: 1px solid #574d4d;
+  position: absolute;
+  left: 337px;
+  top: 197px;
+  margin: 87px 0px 0px 0px;
+  transform-origin: left;
+  animation: clock_anim 3600s infinite steps(60);
+
+}
+.secs {
+  width: 152px;
+  border: 1px solid #000000;
+  position: absolute;
+  left: 337px;
+  top: 197px;
+  margin: 87px 0px 0px 0px;
+  transform-origin: left;
+  animation: clock_anim 60s linear infinite steps(60);
+}
+
+@keyframes clock_anim {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

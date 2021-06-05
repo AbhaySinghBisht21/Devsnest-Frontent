@@ -1,0 +1,79 @@
+/* .vl {
+    border-left: 3px dotted black;
+
+    height: 500px;
+  } */
+
+/* .vlt{
+    border-top: 3px dotted rgb(22, 7, 158);
+
+    height: 25px;
+} */
+/* .v{
+     border-radius: 25px; 
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 14vh;  
+    
+    margin-top: 20vh;
+    margin-left: 80vh;
+     */
+/* #phanto{
+  margin: 50px 0px 0px 95vh;
+} */
+/* .v {
+  width: 112vh;
+
+  height: 100vh;
+
+  border: 1px solid blue;
+  margin: 20px 0px 0px 19vh;
+} */
+
+ /* #c{
+    margin-top: 50px;
+    margin-left: 70vh;
+
+} */
+
+.v{
+  float: left;
+  width: 70%;
+  height: 120vh;
+     /* margin: 20vh 0px 0px 19vh; */
+   border: 2px solid blue;
+  
+}
+
+.s{
+   
+   float: right;
+   width: 9%;
+   height: 3vh;
+   margin: -123vh 125vh 0px 0px;
+   border: 22px solid white;
+   /* padding: .5rem; */
+} 
+ .line1{
+  height:90vh ;
+ margin-left: 50vh;
+ margin-right: 80vh;
+ margin-top: 10VH;
+  border-right: 3px dotted rgb(22, 7, 158);
+ }
+
+/* #a{
+  height: 100vh;
+  width: 100vh;
+  border: 2px solid black;
+}
+ */
+.ftext{
+  margin: -95vh 0vh 0vh 0vh;
+  padding: 2rem;
+}
+.rtext{
+  margin: -63vh 0vh 0vh 61vh;
+  padding:5rem;
+}
