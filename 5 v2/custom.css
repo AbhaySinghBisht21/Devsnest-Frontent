@@ -1,0 +1,26 @@
+input[type="button"]
+    {
+        background-color: rgb(128 128 128);
+        color: black;
+        border: solid black 24px;
+        border-radius: 64%;
+        width: 100%;
+    }
+
+input[type="text"]
+    {
+    background-color:white;
+    border: solid black 2px;
+    width: 96%;
+    }
+.tables{
+    height: 61vh;
+    width: 45vh;
+    display: inline-table;
+    /* align-content: center; */
+    margin: 10% 200px;
+    border-radius: 10%;
+}
+.v{
+    border: none;
+}
