@@ -1,0 +1,39 @@
+.row{
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    /* border: 2px solid rgb(158, 42, 42); */
+    position: absolute;
+    top: 46%;
+    left: 14%;
+    width: 98%;
+    height: 79%;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+
+.column {
+    
+    position: relative;
+    background-color: rgb(124, 41, 41);
+    border: 1px solid black;
+    padding: 17px;
+    height: 46%;
+    width: auto;
+  } 
+
+ .columnclick{
+   
+    background-color:rgb(194, 82, 82);
+ }
+.first
+         {
+         background-color:white;
+         border: solid black 2px;
+         width:100%
+         }
+         .second
+         {
+         background-color:white;
+         border: solid black 2px;
+         width:100%
+         }
