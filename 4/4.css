@@ -13,6 +13,8 @@
   background-size: 304px;
   
 }
+
+
 .outerlp {
   width: 410px;
   height: 410px;
@@ -23,49 +25,48 @@
   top: 77px;
   background: #cd2020;
 }
+
+
  .hrs {
-  width: 152px;
+  width: 70px;
   border: 1px solid #000000;
   position: absolute;
-  left: 337px;
+  left: 341px;
   top: 197px;
   margin: 87px 0px 0px 0px;
   transform-origin: left;
 
-  animation: clock_anim 21600s infinite linear;
+ 
   
-
-
-
-
 } 
+
+
 .mins {
-  width: 152px;
+  width: 122px;
   border: 1px solid #574d4d;
   position: absolute;
-  left: 337px;
-  top: 197px;
+  left: 339px;
+  top: 200px;
   margin: 87px 0px 0px 0px;
   transform-origin: left;
-  animation: clock_anim 3600s infinite steps(60);
+  
 
 }
+
+
+
 .secs {
-  width: 152px;
+  width: 100px;
   border: 1px solid #000000;
   position: absolute;
-  left: 337px;
-  top: 197px;
+  left: 338px;
+  top: 201px;
   margin: 87px 0px 0px 0px;
   transform-origin: left;
-  animation: clock_anim 60s linear infinite steps(60);
+
 }
 
-@keyframes clock_anim {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
+
+
+
+

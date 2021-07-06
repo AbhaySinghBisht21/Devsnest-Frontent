@@ -13,6 +13,24 @@
     <div class="hrs"></div>
     <div class="mins"></div>
     <div class="secs"></div>
+    <script>
+        setInterval(() => {
+    d = new Date(); //object of date()
+    hr = d.getHours();
+    min = d.getMinutes();
+    sec = d.getSeconds();
+    hr_rotation = 30 * hr + min / 2; //converting current time
+    min_rotation = 6 * min;
+    sec_rotation = 6 * sec;
 
+    hour=document.querySelector(".hrs")
+    minute=document.querySelector(".mins")
+    second=document.querySelector(".secs")
+
+    hour.style.transform = `rotate(${hr_rotation-90}deg)`;
+    minute.style.transform = `rotate(${min_rotation-90}deg)`;
+    second.style.transform = `rotate(${sec_rotation-90}deg)`;
+}, 500);
+</script>
 </body>
 </html>

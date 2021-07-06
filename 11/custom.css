@@ -1,0 +1,13 @@
+button{
+    background-color: aqua;
+    margin: 10px 20px;
+    padding: 11px 6px;
+    
+}
+.list{
+    /* list-style: none; */
+}
+li{
+    height: 1px;
+    width: 123px;
+}

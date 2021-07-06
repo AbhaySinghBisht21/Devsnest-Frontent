@@ -1,0 +1,11 @@
+.ans{
+    height: 40px;
+    width: 150px;
+    background-color: aquamarine;
+    /* border: 1px solid; */
+    /* padding: 10px 10px; */
+}
+.show{
+    background-color: tomato;
+
+}
