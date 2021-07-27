@@ -1,0 +1,10 @@
+.navbar{
+  
+background-color: rgb(177, 162, 162);
+height: 50px;
+/* padding: 10px; */
+display: flex;
+justify-content: space-evenly;
+padding: 20px 0px 0px 0px;
+
+}
