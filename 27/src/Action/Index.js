@@ -1,7 +1,7 @@
 const addItem = (item)=>{
 return{
     type:"Add_Item",
-    payload: 'item',
+    payload: item,
 };
 
 };
@@ -10,7 +10,7 @@ return{
 const deleteItem = (id)=>{
     return{
         type:"Delete_Item",
-        payload:'id',
+        payload:id,
     };
     
     };
