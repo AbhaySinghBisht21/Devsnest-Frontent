@@ -35,6 +35,7 @@ return(
     <div className="col">
       <input
         id="input"
+        
         type="text"
         placeholder="enter city"
         value={citys}
